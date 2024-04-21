@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="html/style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estantería con libros y televisión</title>
+</head>
+<body>
+    <div class="shelf">
+        <div class="shelf-background">
+            <!-- Insertar la televisión en la estantería -->
+            <div class="tv">
+                <div class="screen"></div>
+            </div>
+            <!-- Libros en la estantería -->
+            <div class="book red">
+                <div class="label">Libro Rojo</div>
+            </div>
+            <!-- Repite para otros libros -->
+            <div class="book green">
+                <div class="label">Libro Verde</div>
+            </div>
+            <div class="book blue">
+                <div class="label">Libro Azul</div>
+            </div>
+            <div class="book yellow">
+                <div class="label">Libro Amarillo</div>
+            </div>
+            <div class="book purple">
+                <div class="label">Libro Morado</div>
+            </div>
+            <!-- Añade más libros según sea necesario -->
+        </div>
+    </div>
+    <div class="rectangulo"></div>
+    <div class="rectangulo1"></div>
+    <div class="punto"></div>
+    
+</body>
+</html>
