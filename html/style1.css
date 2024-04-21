@@ -1,0 +1,126 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.shelf {
+    width: 600px; /* Ajustado para más espacio */
+    height: 400px;
+    background-color: #8c5a2b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.shelf-background {
+    width: 590px;
+    height: 360px;
+    background-color: #503319;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px; /* Ajustado para más espacio */
+    border-radius: 10px;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.tv {
+    width: 300px;
+    height: 200px;
+    background: #333;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 10px;
+}
+
+.screen {
+    width: 260px;
+    height: 160px;
+    background: #000;
+    border-radius: 10px;
+    animation: changeColor 5s infinite; /* Define la animación */
+}
+
+/* Define la animación keyframes */
+@keyframes changeColor {
+    0%   { background-color: #000; } /* Color inicial */
+    50%  { background-color: #3498db; } /* Cambia a azul en la mitad de la animación */
+    100% { background-color: #000; } /* Vuelve al color inicial */
+}
+
+.label {
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -5px;
+    text-align: center;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    font-size: 12px;
+    writing-mode: vertical-rl;
+    line-height: 1;
+}
+
+.rectangulo {
+    width: 250px;       /* Ancho del rectángulo */
+    height: 20px;      /* Altura del rectángulo */
+    background-color: #8c5a2b; /* Color del fondo */
+    border: 2px solid #6e4620; /* Borde opcional */
+    transform: translateX(350px) translateY(-300px); /* Mueve en X y Y */
+}
+
+.rectangulo1 {
+    width: 500px;       /* Ancho del rectángulo */
+    height: 20px;      /* Altura del rectángulo */
+    background-color: #8c5a2b; /* Color del fondo */
+    border: 2px solid #6e4620; /* Borde opcional */
+    transform: translateX(50px) translateY(-95px); /* Mueve en X y Y */
+}
+
+.punto {
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    position: relative; /* Necesario para la transformación */
+    transition: transform 0.5s ease; /* Suaviza la transición */
+    top: -140px;
+    left:350px;
+}
+
+.punto:hover {
+    transform: translateX(100px); /* Mueve el punto 100px a la derecha */
+}
+
+/* Colores de los libros */
+.red { background-color: #ff0000; }
+.green { background-color: #00ff00; }
+.blue { background-color: #0000ff; }
+.yellow { background-color: #ffff00; }
+.purple { background-color: #800080; }
+.orange { background-color: #ffa500; }
+.light-purple { background-color: #8c00ff; }
+.skyblue { background-color: #9595ff; }
+.brown { background-color: #6b3f0d; }
+.purpleblack { background-color: #300130; }
+.cyan { background-color: #00ff73; }
